@@ -1,0 +1,89 @@
+.details-container-carrito{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: inherit;
+    min-width: inherit;
+  
+}
+
+main .columns-container-carrito {/*Pongo un main, xq hará 2 cosas diferentes con cada uno*/
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;/*0px top and bottom, 50px left and right*/
+}
+
+.productComprados-carrito {
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 800px;
+    padding: 10px;
+    margin: 10px
+    
+}
+
+.product-checkout-block-carrito{
+    display: flex;
+    width: 380px;
+    padding: 10px;
+    margin: 10px
+    
+}
+
+.big-img-carrito {
+    display: flex;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;/*Para que ocupe todo el área del contenedor sin distorcionar el contenido*/
+    overflow: hidden; /* la imagen no desborda el contenedor*/
+}
+
+.checkout-container-carrito {
+    background-color: #ebebeb; /*Color de fondo claro*/
+    padding: 33px; /*Espacio interno*/
+    border-radius: 2px; /*Bordes ligeramente redondeados*/
+}
+.checkout-total-label_01 {
+    font-size: 28px; /* Tamaño grande para el precio */
+    font-weight: 700; /* Fuente en negrita */
+    margin-top: 30px; /* Espacio por encima del precio */
+    margin-bottom: 30px; /* Espacio debajo del grupo superior */
+    line-height: 25px;/*En caso de que el título tenga 2 lineas, la tipografía se separe correctamente entre lineas*/
+    word-wrap: break-word;/*El texto no se desborda de su contenedor*/
+
+}
+.containerPrecio{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-total-label_02 {
+    color: #171414;
+    font-size: 28px; /* Tamaño grande para el precio */
+    font-weight: 700; /* Fuente en negrita */
+    margin-top: 0px; /* Espacio por encima del precio */
+    margin-bottom: 0px; /* Espacio debajo del grupo superior */
+
+}
+.checkout-total-price_carrito {
+    font-size: 28px; /* Tamaño grande para el precio */
+    font-weight: 700; /* Fuente en negrita */
+}
+.checkout-description_carrito {
+    margin-top: 30px;
+    line-height: 20.4px; /* Espaciado de línea para mejorar la legibilidad */
+    word-wrap: break-word; /* Asegura que el texto no desborde el contenedor */
+}
+
+.checkout-container_car {
+    background-color: #ebebeb; /*Color de fondo claro*/
+    padding: 33px; /*Espacio interno*/
+    border-radius: 2px; /*Bordes ligeramente redondeados*/
+    width: 500px;
+  }
