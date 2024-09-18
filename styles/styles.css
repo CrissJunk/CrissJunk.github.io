@@ -17,7 +17,7 @@ main {
 
   /* HEADER */
 header {
-  width: 100%;
+  width: 100vh;
   height: 200px;
   background-color: black;
   padding: 20px 20px 0 20px;
@@ -98,6 +98,7 @@ nav {
 
   /* HERO SECTION (Estilos de la sección hero)*/
 .hero-section {
+    width: 100vh;
     height: 200px;
     background: url(".././assets/hero_bg.png");/*Imagen de fondo*/
     background-size: cover;/*Para que la imagen cubra todo el section*/
@@ -154,6 +155,7 @@ main {
 
   /* Footer  (Estilos del pie de página*/
 footer {
+  width: 100vh;
   min-height: 250px;
   background-color: black;
   display: flex;
